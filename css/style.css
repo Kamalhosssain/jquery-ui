@@ -1,0 +1,81 @@
+#draggable {
+
+ width: 150px; 
+ height: 150px;
+  padding: 0.5em;
+  background-color: #ddd;
+   }
+
+   /*droppable start*/
+   #dragg { width: 100px;
+    height: 100px; 
+    padding: 0.5em; 
+    float: left;
+     margin: 10px 10px 10px 0;
+    border: 1px solid #ddd;
+    /* background-color: #ddd;*/
+ }
+  #drop {
+
+   width: 150px;
+    height: 150px;
+    padding: 0.5em;
+    float: left;
+    margin: 10px;
+    border: 1px solid #ddd;
+    /*background-color: #ddd;*/
+   }
+   /*droppable end*/
+
+   /*selectable start*/
+          #feedback { font-size: 1.4em; }
+          #selectable .ui-selecting { background: #FECA40; }
+          #selectable .ui-selected { background: #F39814; color: white; }
+          #selectable { list-style-type: none; margin: 0; padding: 0; width: 60%; }
+          #selectable li { margin: 3px; padding: 0.4em; font-size: 1.4em; height: 60px; }
+
+          .c_li{
+                color: #2162e2;
+                border: 1px solid #ddd;
+          }
+      /*selectable end*/
+
+      /*shortable start*/
+          #sortable { list-style-type: none; margin: 0; padding: 0; width: 60%; }
+          #sortable li { margin: 0 3px 3px 3px; padding: 0.4em; padding-left: 1.5em; font-size: 1.4em; height: 50px;    background-color: red; }
+          #sortable li span { position: absolute; margin-left: -1.1em; }
+      /*shortable end*/
+
+      /*accordia start*/
+      .acc_p{
+        background-color: lightcyan;
+      }
+      .acc_p span{
+        font-size: 22px;
+        font-weight: 700;
+      }
+      /*accordia end*/
+      /*date peacker start*/
+      .date{
+        margin: 30px 0 50px;
+      }
+      /*date peacker end*/
+      /*menu start*/
+     
+      #menu  li{
+        list-style: none;
+      }
+      #menu  li a{
+        text-decoration: none;
+        color: black;
+      }
+      /*menu end*/
+/*menu select*/
+fieldset {
+  border: 0;
+}
+label {
+  display: block;
+  margin: 30px 0 0 0;
+}
+
